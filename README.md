@@ -2,10 +2,10 @@
 
 A GitLab API client enabling Go programs to interact with GitLab in a simple and uniform way
 
-[![Build Status](https://github.com/xanzy/go-gitlab/workflows/Lint%20and%20Test/badge.svg)](https://github.com/xanzy/go-gitlab/actions?workflow=Lint%20and%20Test)
-[![Sourcegraph](https://sourcegraph.com/github.com/xanzy/go-gitlab/-/badge.svg)](https://sourcegraph.com/github.com/xanzy/go-gitlab?badge)
-[![GoDoc](https://godoc.org/github.com/xanzy/go-gitlab?status.svg)](https://godoc.org/github.com/xanzy/go-gitlab)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xanzy/go-gitlab)](https://goreportcard.com/report/github.com/xanzy/go-gitlab)
+[![Build Status](https://github.com/perolo/go-gitlab/workflows/Lint%20and%20Test/badge.svg)](https://github.com/perolo/go-gitlab/actions?workflow=Lint%20and%20Test)
+[![Sourcegraph](https://sourcegraph.com/github.com/perolo/go-gitlab/-/badge.svg)](https://sourcegraph.com/github.com/perolo/go-gitlab?badge)
+[![GoDoc](https://godoc.org/github.com/perolo/go-gitlab?status.svg)](https://godoc.org/github.com/perolo/go-gitlab)
+[![Go Report Card](https://goreportcard.com/badge/github.com/perolo/go-gitlab)](https://goreportcard.com/report/github.com/perolo/go-gitlab)
 
 ## NOTE
 
@@ -98,7 +98,7 @@ to add new and/or missing endpoints. Currently, the following services are suppo
 ## Usage
 
 ```go
-import "github.com/xanzy/go-gitlab"
+import "github.com/perolo/go-gitlab"
 ```
 
 Construct a new GitLab client, then use the various services on the client to
@@ -135,7 +135,7 @@ projects, _, err := git.Projects.ListProjects(opt)
 
 ### Examples
 
-The [examples](https://github.com/xanzy/go-gitlab/tree/master/examples) directory
+The [examples](https://github.com/perolo/go-gitlab/tree/master/examples) directory
 contains a couple for clear examples, of which one is partially listed here as well:
 
 ```go
@@ -144,7 +144,7 @@ package main
 import (
 	"log"
 
-	"github.com/xanzy/go-gitlab"
+	"github.com/perolo/go-gitlab"
 )
 
 func main() {
@@ -180,7 +180,7 @@ func main() {
 }
 ```
 
-For complete usage of go-gitlab, see the full [package docs](https://godoc.org/github.com/xanzy/go-gitlab).
+For complete usage of go-gitlab, see the full [package docs](https://godoc.org/github.com/perolo/go-gitlab).
 
 ## ToDo
 
@@ -188,7 +188,7 @@ For complete usage of go-gitlab, see the full [package docs](https://godoc.org/g
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/xanzy/go-gitlab/issues)
+- If you have an issue: report it on the [issue tracker](https://github.com/perolo/go-gitlab/issues)
 
 ## Author
 

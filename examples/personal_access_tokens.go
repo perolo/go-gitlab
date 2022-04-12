@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xanzy/go-gitlab"
+	"github.com/perolo/go-gitlab"
 )
 
 func patRevokeExample() {

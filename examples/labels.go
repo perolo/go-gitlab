@@ -19,7 +19,7 @@ package main
 import (
 	"log"
 
-	"github.com/xanzy/go-gitlab"
+	"github.com/perolo/go-gitlab"
 )
 
 func labelExample() {

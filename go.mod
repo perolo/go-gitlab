@@ -1,4 +1,4 @@
-module github.com/xanzy/go-gitlab
+module github.com/perolo/go-gitlab
 
 require (
 	github.com/google/go-querystring v1.1.0
@@ -14,7 +14,7 @@ require (
 	github.com/golang/protobuf v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
-	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	google.golang.org/appengine v1.3.0 // indirect
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
